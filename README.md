@@ -1,7 +1,5 @@
 CARRS (Computed Assisted Regional Residual Separation) 
 
-https://doi.org/10.1190/geo2023-0546.1
-
 The computer codes made available with this publication are organized in a set of 6 short MATLAB scripts labelled as prog01 to prog06 (pro07 only replicates figures in the paper). 
 With the previously computed results in this distribution, you can start by running prog03 to avoid time consuming derivative evaluations in prog02. 
 	prog01_SetMuValues illustrates the curvature and gradient shapes for data profiles when regularized derivatives are evaluated under its default criterion (discrepancy principle) or fixing a predetermined value specifying the noise level in data. Regularization parameters set in this step will be used to process the entire data set. 
@@ -11,3 +9,5 @@ With the previously computed results in this distribution, you can start by runn
 	prog05_AnalysisAlongProfiles displays the regional models along profiles, as illustrated in Figure 9, but scanning the entire data set with a large number of profiles. 
 	prog06_DataFittingQuality evaluates the data fitting quality to the selected low curvature and gradient points; cross-plot picture for the observed to the polynomial-fitting data. 
 	prog07_PaperFigures reproduces figures in the real data application section of the paper.
+
+https://doi.org/10.1190/geo2023-0546.1
